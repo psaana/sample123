@@ -1,0 +1,10 @@
+<h1>
+
+<form>
+<input type="text" class="form-control" required    [(ngModel)]="contact.name"       name="name"  #name="ngModel" placeholder="name">
+<input type="text" class="form-control" required    [(ngModel)]="contact.age"       name="age"  placeholder="age" >
+
+</form>
+</h1>
+
+{{contact | json}} 
