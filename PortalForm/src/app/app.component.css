@@ -1,0 +1,19 @@
+.example-form {
+  width: 700px;
+  padding: 10px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.row{
+  margin-top: 20px;
+}
+.search-container{
+  width: 700px;
+  padding: 10px;
+}
+
+.example-card{
+  margin-top: 20px;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "portal-form",
+  "name": "ng4-playground",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,19 +8,30 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "startServer":"nodemon server.js"
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.1.3",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/http": "^4.0.0",
+    "@angular/material": "^2.0.0-beta.5",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.26",
+    "body-parser": "~1.5.2",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "nodemon": "^1.11.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
